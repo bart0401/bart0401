@@ -1,7 +1,9 @@
 ### Study Data Analysis
 
-<img src="https://img.shields.io/badge/Python-3766AB?style=flat-square&logo=Python&logoColor=white"/>
-<img src="https://img.shields.io/badge/PyCharm-FFCA28?style=flat-square&logo=PyCharm&logoColor=white"/>
+<div align="left">
+	<img src="https://img.shields.io/badge/Python-0067A3?style=flat-square&logo=Python&logoColor=white"/>
+	<img src="https://img.shields.io/badge/PyCharm-81C147?style=flat-square&logo=PyCharm&logoColor=white"/>
+</div>
 
 
 <!--
