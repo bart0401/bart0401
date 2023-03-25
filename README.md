@@ -19,6 +19,7 @@
 #### Certification
 <div align="left">
 	<img src="https://img.shields.io/badge/ADsP-5FC6C7?style=flat-square"/>
+	<img src="https://img.shields.io/badge/GAIQ-FF7F00?style=flat-square"/>
 </div>
 
 <!--
