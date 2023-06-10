@@ -1,4 +1,4 @@
-### After Work, Study Data Analysis & Engineering
+### After Work, Exploring Data Analysis
 #
 #### Language & Database
 <div align="left">
