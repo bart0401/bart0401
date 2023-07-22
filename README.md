@@ -8,6 +8,7 @@
 <div align="left">
 	<img src="https://img.shields.io/badge/PostgreSQL-4169E1?style=flat-square&logo=PostgreSQL&logoColor=white"/>
 	<img src="https://img.shields.io/badge/MariaDB-43B02A?style=flat-square&logo=mariaDB&logoColor=white"/>
+	<img src="https://img.shields.io/badge/MySQL-4479A1?style=flat-square&logo=MySQL&logoColor=white"/>
 	<img src="https://img.shields.io/badge/Oracle-F80000?style=flat-square&logo=Oracle&logoColor=white"/>
 
 #### Tools
@@ -19,7 +20,11 @@
 #### Certification
 <div align="left">
 	<img src="https://img.shields.io/badge/ADsP-5FC6C7?style=flat-square"/>
-	<img src="https://img.shields.io/badge/GAIQ-FF7F00?style=flat-square"/>
+	<img src="https://img.shields.io/badge/GAIQ-A374DB?style=flat-square"/>
+
+#### Graduate School
+<div align="left">
+	<img src="https://img.shields.io/badge/Department of Applied Data Science, Sungkyunkwan University (SKKU)-1976D2?style=flat-square"/>
 </div>
 
 <!--
