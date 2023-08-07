@@ -24,7 +24,7 @@
 
 #### Graduate School
 <div align="left">
-	<img src="https://img.shields.io/badge/Department of Applied Data Science, Sungkyunkwan University (SKKU)-1976D2?style=flat-square"/>
+	<img src="https://img.shields.io/badge/성균관대학교 데이터사이언스융합학과 (일반대학원)-1976D2?style=flat-square"/>
 </div>
 
 <!--
