@@ -1,4 +1,4 @@
-### After Work, Exploring Data Analysis
+### Exploring Data Analysis
 #
 #### Script Language
 <div align="left">
