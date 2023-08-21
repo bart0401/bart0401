@@ -11,21 +11,10 @@
 	<img src="https://img.shields.io/badge/MySQL-4479A1?style=flat-square&logo=MySQL&logoColor=white"/>
 	<img src="https://img.shields.io/badge/Oracle-F80000?style=flat-square&logo=Oracle&logoColor=white"/>
 
-#### Tools
-<div align="left">
-	<img src="https://img.shields.io/badge/Github-181717?style=flat-square&logo=Github&logoColor=white"/>
-	<img src="https://img.shields.io/badge/Gitlab-FC6D26?style=flat-square&logo=Gitlab&logoColor=white"/>	
-
-
 #### Certification
 <div align="left">
 	<img src="https://img.shields.io/badge/ADsP-5FC6C7?style=flat-square"/>
 	<img src="https://img.shields.io/badge/GAIQ-A374DB?style=flat-square"/>
-
-#### Graduate School
-<div align="left">
-	<img src="https://img.shields.io/badge/성균관대학교 데이터사이언스융합학과 (일반대학원)-1976D2?style=flat-square"/>
-</div>
 
 <!--
 **987cyh/987cyh** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
