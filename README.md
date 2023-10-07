@@ -1,8 +1,11 @@
 ### Exploring Data Analysis
 #
-#### Script Language
+#### Data Analysis Capabilities
 <div align="left">
-	<img src="https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=Python&logoColor=white"/>
+	<img src="https://img.shields.io/badge/Deep Learning-2AC1BC?style=flat-square"/>
+	<img src="https://img.shields.io/badge/Machine Learning-FFFFFF?style=flat-square"/>
+	<img src="https://img.shields.io/badge/Spatial Analysis-000000?style=flat-square"/>
+	<img src="https://img.shields.io/badge/Time Series Analysis-DF7401?style=flat-square"/>
 
 #### Database
 <div align="left">
@@ -10,6 +13,10 @@
 	<img src="https://img.shields.io/badge/MariaDB-43B02A?style=flat-square&logo=mariaDB&logoColor=white"/>
 	<img src="https://img.shields.io/badge/MySQL-4479A1?style=flat-square&logo=MySQL&logoColor=white"/>
 	<img src="https://img.shields.io/badge/Oracle-F80000?style=flat-square&logo=Oracle&logoColor=white"/>
+
+#### Script Language
+<div align="left">
+	<img src="https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=Python&logoColor=white"/>
 
 #### Certification
 <div align="left">
