@@ -3,7 +3,7 @@
 #### Data Analysis Capabilities
 <div align="left">
 	<img src="https://img.shields.io/badge/Deep Learning-2AC1BC?style=flat-square"/>
-	<img src="https://img.shields.io/badge/Machine Learning-FFFFFF?style=flat-square"/>
+	<img src="https://img.shields.io/badge/Machine Learning-4CC764?style=flat-square"/>
 	<img src="https://img.shields.io/badge/Spatial Analysis-000000?style=flat-square"/>
 	<img src="https://img.shields.io/badge/Time Series Analysis-DF7401?style=flat-square"/>
 
