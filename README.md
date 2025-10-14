@@ -36,10 +36,10 @@ Key contributions to the LangChain project:
 
 ### 🔨 Pull Requests (2)
 
-- **ModelResponse Export Fix** - [Pull Request #33454](https://github.com/langchain-ai/langchain/pull/33454)
+- **ModelResponse Export Fix** - [Pull Request #33454](https://github.com/langchain-ai/langchain/pull/33454) **[Merged]**
   - Added `ModelResponse` to `__init__.py` to properly export from package
 
-- **Middleware Async Support Implementation** - [Pull Request #33475](https://github.com/langchain-ai/langchain/pull/33475)
+- **Middleware Async Support Implementation** - [Pull Request #33475](https://github.com/langchain-ai/langchain/pull/33475) **[Closed - Duplicate]**
   - Implemented `awrap_model_call` method for `PlanningMiddleware` and `ModelFallbackMiddleware` to support async agent calls
   - Enables middleware usage in FastAPI, WebSocket, LangGraph and other async environments
 
