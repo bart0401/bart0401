@@ -23,7 +23,7 @@
 
 Key contributions to the LangChain project:
 
-### 🐛 Issues (3)
+### 🐛 Issues (4)
 
 - **Agent Fallback & Middleware Compatibility Improvement** - [Issue #33129](https://github.com/langchain-ai/langchain/issues/33129)
   - Discovered and proposed solutions for type checking issues when using fallback models and middleware together in `create_agent()`
@@ -33,6 +33,9 @@ Key contributions to the LangChain project:
 
 - **Middleware Async Support Analysis** - [Issue #33474](https://github.com/langchain-ai/langchain/issues/33474)
   - Detailed analysis and report on `NotImplementedError` caused by lack of async support in `PlanningMiddleware`, `AnthropicPromptCachingMiddleware`, and `ModelFallbackMiddleware` in LangChain 1.0.0a14
+
+- **Documentation Deprecated Middleware Class** - [Issue #936](https://github.com/langchain-ai/docs/issues/936)
+  - Reported outdated documentation using deprecated `PlanningMiddleware` instead of `TodoListMiddleware`, causing ImportError for users following official docs
 
 ### 🔨 Pull Requests (2)
 
