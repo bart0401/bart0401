@@ -39,6 +39,7 @@ Key contributions to the LangChain project:
 
 - **Async Function Removal Analysis** - [Issue #174](https://github.com/langchain-ai/deepagents/issues/174)
   - Investigated disappearance of `async_create_deep_agent` in 0.0.12rc2, traced culprit to [Pull Request #171](https://github.com/langchain-ai/deepagents/pull/171) refactoring
+  <hr style="border-top: 3px dotted #ccc;">
 
 ### 🔨 Pull Requests (2)
 
