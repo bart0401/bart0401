@@ -23,7 +23,7 @@
 
 Key contributions to the LangChain project:
 
-### 🐛 Issues (4)
+### 🐛 Issues (5)
 
 - **Agent Fallback & Middleware Compatibility Improvement** - [Issue #33129](https://github.com/langchain-ai/langchain/issues/33129)
   - Discovered and proposed solutions for type checking issues when using fallback models and middleware together in `create_agent()`
@@ -37,6 +37,9 @@ Key contributions to the LangChain project:
 - **Documentation Deprecated Middleware Class** - [Issue #936](https://github.com/langchain-ai/docs/issues/936)
   - Reported outdated documentation using deprecated `PlanningMiddleware` instead of `TodoListMiddleware`, causing ImportError for users following official docs
 
+- **Async Function Removal Analysis** - [Issue #174](https://github.com/langchain-ai/deepagents/issues/174)
+  - Investigated disappearance of `async_create_deep_agent` in 0.0.12rc2, traced culprit to [Pull Request #171](https://github.com/langchain-ai/deepagents/pull/171) refactoring
+
 ### 🔨 Pull Requests (2)
 
 - **ModelResponse Export Fix** - [Pull Request #33454](https://github.com/langchain-ai/langchain/pull/33454) **[Merged]**
@@ -45,7 +48,6 @@ Key contributions to the LangChain project:
 - **Middleware Async Support Implementation** - [Pull Request #33475](https://github.com/langchain-ai/langchain/pull/33475) **[Closed - Duplicate]**
   - Implemented `awrap_model_call` method for `PlanningMiddleware` and `ModelFallbackMiddleware` to support async agent calls
   - Enables middleware usage in FastAPI, WebSocket, LangGraph and other async environments
-
 ---
 
 ## 🛠️ Tech Stack
