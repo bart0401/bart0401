@@ -1,6 +1,6 @@
 <div align="center">
 
-# 👋 Multi Agent AI Engineer
+# 👋 AI Engineer, Cho Yongho
 
 ### Multi Agent AI Engineer | LangChain Contributor
 
@@ -25,7 +25,7 @@ Key contributions to the LangChain project:
 
 ### 🐛 Issues (5)
 
-- **Agent Fallback & Middleware Compatibility Improvement** - [Issue #33129](https://github.com/langchain-ai/langchain/issues/33129)
+- **Agent Fallback & Middleware Compatibility Improvement** - [Issue #33129](https://github.com/langchain-ai/langchain/issues/33129) **✅ [Breaking Change]**
   - Discovered and proposed solutions for type checking issues when using fallback models and middleware together in `create_agent()`
 
 - **ModelResponse Import Issue** - [Issue #33453](https://github.com/langchain-ai/langchain/issues/33453)
@@ -41,10 +41,14 @@ Key contributions to the LangChain project:
   - Investigated disappearance of `async_create_deep_agent` in 0.0.12rc2, traced culprit to [Pull Request #171](https://github.com/langchain-ai/deepagents/pull/171) refactoring
   <hr style="border-top: 3px dotted #ccc;">
 
-### 🔨 Pull Requests (2)
+### 🔨 Pull Requests (3)
 
-- **ModelResponse Export Fix** - [Pull Request #33454](https://github.com/langchain-ai/langchain/pull/33454) **[Merged]**
+- **ModelResponse Export Fix** - [Pull Request #33454](https://github.com/langchain-ai/langchain/pull/33454) **✅ [Merged]**
   - Added `ModelResponse` to `__init__.py` to properly export from package
+
+- **Docs Middleware Update** - [Pull Request #942](https://github.com/langchain-ai/docs/pull/942) **✅ [Merged]**  
+  - Updated official LangChain documentation to replace deprecated `PlanningMiddleware` with `TodoListMiddleware`  
+  - Prevents user confusion and `ImportError` when following middleware integration examples
 
 - **Middleware Async Support Implementation** - [Pull Request #33475](https://github.com/langchain-ai/langchain/pull/33475) **[Closed - Duplicate]**
   - Implemented `awrap_model_call` method for `PlanningMiddleware` and `ModelFallbackMiddleware` to support async agent calls
