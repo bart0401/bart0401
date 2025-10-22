@@ -25,7 +25,7 @@ Key contributions to the LangChain project:
 
 ### 🐛 Issues (7)
 
-- **[[ModelFallbackMiddleware](https://docs.langchain.com/oss/python/langchain/middleware#model-fallback)] Agent Fallback & Middleware Type Annotation Conflict Analysis** - [Issue #33129](https://github.com/langchain-ai/langchain/issues/33129) **✅ [Breaking Change]**
+- **[[ModelFallbackMiddleware](https://docs.langchain.com/oss/python/langchain/middleware#model-fallback)] Agent Fallback & Middleware Type Annotation Conflict** - [Issue #33129](https://github.com/langchain-ai/langchain/issues/33129) **✅ [Breaking Change]**
 - **ModelResponse Class Export Missing from Public API** - [Issue #33453](https://github.com/langchain-ai/langchain/issues/33453)
 - **Middleware Async Compatibility Gap - NotImplementedError Analysis** - [Issue #33474](https://github.com/langchain-ai/langchain/issues/33474)
 - **Documentation Outdated Reference to Deprecated PlanningMiddleware** - [Issue #936](https://github.com/langchain-ai/docs/issues/936)
