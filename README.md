@@ -23,36 +23,23 @@
 
 Key contributions to the LangChain project:
 
-### 🐛 Issues (5)
+### 🐛 Issues (7)
 
-- **Agent Fallback & Middleware Compatibility Improvement** - [Issue #33129](https://github.com/langchain-ai/langchain/issues/33129) **✅ [Breaking Change]**
-  - Discovered and proposed solutions for type checking issues when using fallback models and middleware together in `create_agent()`
+- **[[ModelFallbackMiddleware](https://docs.langchain.com/oss/python/langchain/middleware#model-fallback)] Agent Fallback & Middleware Type Annotation Conflict Analysis** - [Issue #33129](https://github.com/langchain-ai/langchain/issues/33129) **✅ [Breaking Change]**
+- **ModelResponse Class Export Missing from Public API** - [Issue #33453](https://github.com/langchain-ai/langchain/issues/33453)
+- **Middleware Async Compatibility Gap - NotImplementedError Analysis** - [Issue #33474](https://github.com/langchain-ai/langchain/issues/33474)
+- **Documentation Outdated Reference to Deprecated PlanningMiddleware** - [Issue #936](https://github.com/langchain-ai/docs/issues/936)
+- **Breaking Change Analysis: async_create_deep_agent Removal in v0.0.12rc2** - [Issue #174](https://github.com/langchain-ai/deepagents/issues/174)
+- **LangMem-LangGraph 1.0.x Breaking Change: CONFIG_KEY_STORE Migration** - [Issue #131](https://github.com/langchain-ai/langmem/issues/131)
+- **DeepAgents Strict Version Pinning Blocks LangChain Patch Updates** - [Issue #186](https://github.com/langchain-ai/deepagents/issues/186)
 
-- **ModelResponse Import Issue** - [Issue #33453](https://github.com/langchain-ai/langchain/issues/33453)
-  - Reported issue with directly importing `ModelResponse` class from `langchain.agents.middleware`
-
-- **Middleware Async Support Analysis** - [Issue #33474](https://github.com/langchain-ai/langchain/issues/33474)
-  - Detailed analysis and report on `NotImplementedError` caused by lack of async support in `PlanningMiddleware`, `AnthropicPromptCachingMiddleware`, and `ModelFallbackMiddleware` in LangChain 1.0.0a14
-
-- **Documentation Deprecated Middleware Class** - [Issue #936](https://github.com/langchain-ai/docs/issues/936)
-  - Reported outdated documentation using deprecated `PlanningMiddleware` instead of `TodoListMiddleware`, causing ImportError for users following official docs
-
-- **Async Function Removal Analysis** - [Issue #174](https://github.com/langchain-ai/deepagents/issues/174)
-  - Investigated disappearance of `async_create_deep_agent` in 0.0.12rc2, traced culprit to [Pull Request #171](https://github.com/langchain-ai/deepagents/pull/171) refactoring
-  <hr style="border-top: 3px dotted #ccc;">
+<hr style="border-top: 3px dotted #ccc;">
 
 ### 🔨 Pull Requests (3)
 
-- **ModelResponse Export Fix** - [Pull Request #33454](https://github.com/langchain-ai/langchain/pull/33454) **✅ [Merged]**
-  - Added `ModelResponse` to `__init__.py` to properly export from package
-
-- **Docs Middleware Update** - [Pull Request #942](https://github.com/langchain-ai/docs/pull/942) **✅ [Merged]**  
-  - Updated official LangChain documentation to replace deprecated `PlanningMiddleware` with `TodoListMiddleware`  
-  - Prevents user confusion and `ImportError` when following middleware integration examples
-
-- **Middleware Async Support Implementation** - [Pull Request #33475](https://github.com/langchain-ai/langchain/pull/33475) **[Closed - Duplicate]**
-  - Implemented `awrap_model_call` method for `PlanningMiddleware` and `ModelFallbackMiddleware` to support async agent calls
-  - Enables middleware usage in FastAPI, WebSocket, LangGraph and other async environments
+- **Fix: Export ModelResponse Class in Public API** - [Pull Request #33454](https://github.com/langchain-ai/langchain/pull/33454) **✅ [Merged]**
+- **Docs: Migrate PlanningMiddleware to TodoListMiddleware** - [Pull Request #942](https://github.com/langchain-ai/docs/pull/942) **✅ [Merged]**
+- **Feature: Async Support for Planning & Fallback Middleware (awrap_model_call)** - [Pull Request #33475](https://github.com/langchain-ai/langchain/pull/33475) **[Closed - Duplicate]**
 ---
 
 ## 🛠️ Tech Stack
