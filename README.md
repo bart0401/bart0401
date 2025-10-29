@@ -23,9 +23,10 @@
 
 Key contributions to the LangChain project:
 
-### 🐛 Issues (6)
+### 🐛 Issues (7)
 
 - **[[ModelFallbackMiddleware](https://docs.langchain.com/oss/python/langchain/middleware#model-fallback)] Agent Fallback & Middleware Type Annotation Conflict** - [Issue #33129](https://github.com/langchain-ai/langchain/issues/33129) **✅ [Breaking Change]**
+- **[[AnthropicPromptCachingMiddleware](https://docs.langchain.com/oss/python/langchain/middleware#anthropic-prompt-caching)] Middleware Conflict: PromptCaching vs Fallback** - [Issue #33709](https://github.com/langchain-ai/langchain/issues/33709)
 - **ModelResponse Class Export Missing from Public API** - [Issue #33453](https://github.com/langchain-ai/langchain/issues/33453)
 - **Middleware Async Compatibility Gap - NotImplementedError Analysis** - [Issue #33474](https://github.com/langchain-ai/langchain/issues/33474)
 - **Documentation Outdated Reference to Deprecated PlanningMiddleware** - [Issue #936](https://github.com/langchain-ai/docs/issues/936)
@@ -34,10 +35,11 @@ Key contributions to the LangChain project:
 
 <hr style="border-top: 3px dotted #ccc;">
 
-### 🔨 Pull Requests (3)
+### 🔨 Pull Requests (4)
 
 - **Fix: Export ModelResponse Class in Public API** - [Pull Request #33454](https://github.com/langchain-ai/langchain/pull/33454) **✅ [Merged]**
 - **Docs: Migrate PlanningMiddleware to TodoListMiddleware** - [Pull Request #942](https://github.com/langchain-ai/docs/pull/942) **✅ [Merged]**
+- **Fix: Use override in model fallbacks** - [Pull Request #33716](https://github.com/langchain-ai/langchain/pull/33716) **[Taken Over by `Maintainer: eyurtsev`]**
 - **Feature: Async Support for Planning & Fallback Middleware (awrap_model_call)** - [Pull Request #33475](https://github.com/langchain-ai/langchain/pull/33475) **[Closed - Duplicate]**
 ---
 
