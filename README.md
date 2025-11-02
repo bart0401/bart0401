@@ -2,7 +2,7 @@
 
 # 👋 AI Engineer, Cho Yongho
 
-### Multi Agent AI Engineer | LangChain Contributor
+### Multi Agent AI Engineer | `LangChain` Contributor 🦜🔗 
 
 </div>
 
@@ -12,14 +12,14 @@
 
 **AI Engineer** specializing in Multi AI Agent service development.
 
-- 🤖 **LangChain Contributor** - Contributing to the open source ecosystem
+- 🦜🔗 **LangChain Contributor** - Contributing to the open source ecosystem
 - 🔧 AI Agent architecture design and implementation expertise
 - 📊 Experience developing AI solutions combining spatial and time-series data
 - 🌐 Focused on building production-ready AI services
 
 ---
 
-## 🎯 LangChain Contributions
+## 🦜🔗 LangChain Contributions
 
 Key contributions to the LangChain project:
 
@@ -36,13 +36,12 @@ Key contributions to the LangChain project:
 
 <hr style="border-top: 3px dotted #ccc;">
 
-### 🔨 Pull Requests (5)
+### 🔨 Pull Requests (4)
 
 - **Fix: Export ModelResponse Class in Public API** - [Pull Request #33454](https://github.com/langchain-ai/langchain/pull/33454) **✅ [Merged]**
 - **Docs: Migrate PlanningMiddleware to TodoListMiddleware** - [Pull Request #942](https://github.com/langchain-ai/docs/pull/942) **✅ [Merged]**
 - **Docs: Update retriever imports to use langchain_classic for v1 compatibility** - [Pull Request #1196](https://github.com/langchain-ai/docs/pull/1196) **✅ [Merged]**
 - **Fix: Use override in model fallbacks** - [Pull Request #33716](https://github.com/langchain-ai/langchain/pull/33716) **[Taken Over by `Maintainer: eyurtsev`]**
-- **Feature: Async Support for Planning & Fallback Middleware (awrap_model_call)** - [Pull Request #33475](https://github.com/langchain-ai/langchain/pull/33475) **[Closed - Duplicate]**
 ---
 
 ## 🛠️ Tech Stack
