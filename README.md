@@ -23,7 +23,7 @@
 
 Key contributions to the LangChain project:
 
-### 🐛 Issues (9)
+### 🐛 Issues (10)
 
 - **[[ModelFallbackMiddleware](https://docs.langchain.com/oss/python/langchain/middleware#model-fallback)] Agent Fallback & Middleware Type Annotation Conflict** - [Issue #33129](https://github.com/langchain-ai/langchain/issues/33129) **✅ [Breaking Change]**
 - **[[AnthropicPromptCachingMiddleware](https://docs.langchain.com/oss/python/langchain/middleware#anthropic-prompt-caching)] Middleware Conflict: PromptCaching vs Fallback** - [Issue #33709](https://github.com/langchain-ai/langchain/issues/33709)
@@ -34,16 +34,18 @@ Key contributions to the LangChain project:
 - **Breaking Change Analysis: async_create_deep_agent Removal in v0.0.12rc2** - [Issue #174](https://github.com/langchain-ai/deepagents/issues/174)
 - **DeepAgents Strict Version Pinning Blocks LangChain Patch Updates** - [Issue #186](https://github.com/langchain-ai/deepagents/issues/186)
 - **Google GenAI Streaming Regression in ChatGoogleGenerativeAI** - [Issue #1536](https://github.com/langchain-ai/langchain-google/issues/1536)
+- **AgentCoreSandbox download_files Silently Corrupts Binary Files - Double Base64 Decode and ./ Path Lookup Failure** - [Issue #3426](https://github.com/langchain-ai/deepagents/issues/3426)
 
 <hr style="border-top: 3px dotted #ccc;">
 
-### 🔨 Pull Requests (5)
+### 🔨 Pull Requests (6)
 
 - **Fix: Export ModelResponse Class in Public API** - [Pull Request #33454](https://github.com/langchain-ai/langchain/pull/33454) **✅ [Merged]**
 - **Docs: Migrate PlanningMiddleware to TodoListMiddleware** - [Pull Request #942](https://github.com/langchain-ai/docs/pull/942) **✅ [Merged]**
 - **Docs: Update retriever imports to use langchain_classic for v1 compatibility** - [Pull Request #1196](https://github.com/langchain-ai/docs/pull/1196) **✅ [Merged]**
 - **Fix: Use override in model fallbacks** - [Pull Request #33716](https://github.com/langchain-ai/langchain/pull/33716) **[Taken Over by `Maintainer: eyurtsev`]**
 - **Fix: Support type alias "video" for media in ChatGoogleGenerativeAI** - [Pull Request #1537](https://github.com/langchain-ai/langchain-google/pull/1537) **[Self-assigned by `Maintainer: mdrxy`]**
+- **Fix: Preserve binary blob bytes and normalize ./ paths in AgentCore Code Interpreter readFiles** - [Pull Request #1046](https://github.com/langchain-ai/langchain-aws/pull/1046)
 ---
 
 ## 🛠️ Tech Stack
