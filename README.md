@@ -45,7 +45,7 @@ Key contributions to the LangChain project:
 - **Docs: Update retriever imports to use langchain_classic for v1 compatibility** - [Pull Request #1196](https://github.com/langchain-ai/docs/pull/1196) **✅ [Merged]**
 - **Fix: Use override in model fallbacks** - [Pull Request #33716](https://github.com/langchain-ai/langchain/pull/33716) **[Taken Over by `Maintainer: eyurtsev`]**
 - **Fix: Support type alias "video" for media in ChatGoogleGenerativeAI** - [Pull Request #1537](https://github.com/langchain-ai/langchain-google/pull/1537) **[Self-assigned by `Maintainer: mdrxy`]**
-- **Fix: Preserve binary blob bytes and normalize ./ paths in AgentCore Code Interpreter readFiles** - [Pull Request #1046](https://github.com/langchain-ai/langchain-aws/pull/1046)
+- **Fix: Preserve binary blob bytes and normalize ./ paths in AgentCore Code Interpreter readFiles** - [Pull Request #1046](https://github.com/langchain-ai/langchain-aws/pull/1046) **✅ [Merged]**
 ---
 
 ## 🛠️ Tech Stack
